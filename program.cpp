@@ -17,12 +17,12 @@ int main()
 		{ 
 			case 1: // count = 1 
 			{ 
-				cout << " V razrabotke " << endl;
+				cout << a << " + " << b << " = " << MySum(a, b) << endl;
 				break;
 			} 
 			case 2: // count = 2 
 			{
-				cout << " V razrabotke " << endl;
+				cout << a << " - " << b << " = " << MySub(a, b) << endl;
 				break;
 			}
 			case 3: // count = 3 
