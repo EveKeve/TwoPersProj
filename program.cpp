@@ -25,16 +25,17 @@ int main()
 				cout << a << " - " << b << " = " << MySub(a, b) << endl;
 				break;
 			}
-			case 3: // count = 3 
-				{ 
-				cout << " V razrabotke " << endl;
-				break;
-			}
-			case 4: // count = 4
-			{
-				cout << " V razrabotke " << endl;
-				break;
-			} 
+                        case 3:  count = 3
+                        {
+                                 cout << a << " * " << b << " = " << MyMul(a, b) << endl;
+                                 break;
+                        }
+                        case 4:  count = 4
+                        {
+                                  cout << a << " / " << b << " = " << MyDiv(a, b) << endl;
+                                  break;
+                        }
+
 			default: 
 				cout << "Nepravilni vvod" << endl;
 		} 
