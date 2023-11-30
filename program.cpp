@@ -39,7 +39,7 @@ int main()
 						 break;
 					 }
 			default: 
-				cout << "Nepravilni vvod" << endl;
+				cout << "Nepravilni vvod, press any button" << endl;
 		} 
 	}
 	system("pause"); 
